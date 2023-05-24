@@ -1,4 +1,3 @@
-
 export const View = (todos) => {
   const ulElement = document.querySelector("#myUl");
 

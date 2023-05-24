@@ -1,4 +1,4 @@
-import { View, addName } from "./view";
+import { View, addName } from "./view.js";
 
 const todos = JSON.parse(localStorage.getItem("todos")) || [];
 

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(0, 32, 128), rgb(121, 86, 216));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTodo{
+    background: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 0.5rem;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;  
+}
+
+#input{
+    background: rgb(232, 232, 232);
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.button{
+    background: orange;
+    border-radius: 1rem;
+}
+
+#myUl{
+    display: flex;
+    align-items: center;
+}
